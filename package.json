@@ -2,7 +2,7 @@
   "name": "dictonary-web-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://stefanpougatchev.github.io/dictionary-web-app/",
+  "homepage": "https://stefanpougatchev.github.io/dictionary-web-app.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
