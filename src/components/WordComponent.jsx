@@ -20,7 +20,7 @@ const WordComponent = ({ wordData }) => {
       </WordTitleContainer>
       <Icon
         onClick={playSound}
-        src='./src/assets/images/icon-play.svg'
+        src='../src/assets/images/icon-play.svg'
       />
     </WordComponentContainer>
   );

@@ -64,7 +64,7 @@ const SearchInput = styled.input`
 `;
 
 const SearchButton = styled.button`
-  background: url('./src/assets/images/icon-search.svg') no-repeat;
+  background: url('../src/assets/images/icon-search.svg') no-repeat;
   border: none;
   height: 20px;
   width: 20px;
