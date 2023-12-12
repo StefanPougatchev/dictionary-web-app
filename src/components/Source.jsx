@@ -8,7 +8,7 @@ const Source = ({ url }) => {
       <SourceTextContainer>
         <SourceText>Source</SourceText>
         <SourceLink href={url}>{url}</SourceLink>
-        <img src='./src/assets/images/icon-new-window.svg' />
+        <img src='../assets/images/icon-new-window.svg' />
       </SourceTextContainer>
     </SourceContainer>
   );

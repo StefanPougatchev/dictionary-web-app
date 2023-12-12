@@ -10,8 +10,8 @@ const Heading = ({ theme, toggleTheme }) => {
         onClick={() => toggleTheme()}
         src={
           theme === 'light'
-            ? '../src/assets/images/icon-moon.svg'
-            : '../src/assets/images/sun.svg'
+            ? '../assets/images/icon-moon.svg'
+            : '../assets/images/sun.svg'
         }
       />
     </HeadingConatiner>
