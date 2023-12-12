@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import styled from 'styled-components';
 import useSound from 'use-sound';
+import soundIcon from '../assets/images/icon-play.svg';
 
 const WordComponent = ({ wordData }) => {
   const audioFile = wordData?.phonetics.find(
@@ -20,7 +21,7 @@ const WordComponent = ({ wordData }) => {
       </WordTitleContainer>
       <Icon
         onClick={playSound}
-        src='../assets/images/icon-play.svg'
+        src={soundIcon}
       />
     </WordComponentContainer>
   );

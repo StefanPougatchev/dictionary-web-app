@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import styled from 'styled-components';
+import newWindowIcon from '../assets/images/icon-new-window.svg';
 
 const Source = ({ url }) => {
   return (
@@ -8,7 +9,7 @@ const Source = ({ url }) => {
       <SourceTextContainer>
         <SourceText>Source</SourceText>
         <SourceLink href={url}>{url}</SourceLink>
-        <img src='../assets/images/icon-new-window.svg' />
+        <img src={newWindowIcon} />
       </SourceTextContainer>
     </SourceContainer>
   );

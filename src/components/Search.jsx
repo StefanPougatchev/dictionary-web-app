@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import styled from 'styled-components';
+import searchIcon from '../assets/images/icon-search.svg';
 
 const Search = ({ handleSearchClick }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -64,7 +65,7 @@ const SearchInput = styled.input`
 `;
 
 const SearchButton = styled.button`
-  background: url('../assets/images/icon-search.svg') no-repeat;
+  background: url(${searchIcon}) no-repeat;
   border: none;
   height: 20px;
   width: 20px;
