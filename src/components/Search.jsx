@@ -19,7 +19,9 @@ const Search = ({ handleSearchClick }) => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <SearchButton type='submit' />
+      <SearchButton type='submit'>
+        <img src={searchIcon} />
+      </SearchButton>
     </SearchContainer>
   );
 };
@@ -65,11 +67,11 @@ const SearchInput = styled.input`
 `;
 
 const SearchButton = styled.button`
-  background: url(${searchIcon}) no-repeat;
+  background-color: transparent;
   border: none;
   height: 20px;
   width: 20px;
-  padding-right: 24px;
+  padding-right: 30px;
 `;
 
 export default Search;
