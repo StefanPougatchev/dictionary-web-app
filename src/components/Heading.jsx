@@ -1,18 +1,17 @@
 /* eslint-disable react/prop-types */
 import styled from 'styled-components';
+import sun from '../assets/images/sun.svg';
+import moon from '../assets/images/icon-moon.svg';
+import logo from '../assets/images/logo.svg';
 
 const Heading = ({ theme, toggleTheme }) => {
   return (
     <HeadingConatiner>
-      <img src='src/assets/images/logo.svg' />
+      <img src={logo} />
       <HeadingTitle>Online Dictionary</HeadingTitle>
       <ToggleIcon
         onClick={() => toggleTheme()}
-        src={
-          theme === 'light'
-            ? '../assets/images/icon-moon.svg'
-            : '../assets/images/sun.svg'
-        }
+        src={theme === 'light' ? moon : sun}
       />
     </HeadingConatiner>
   );
