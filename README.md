@@ -22,7 +22,6 @@ Here are screenshots of the application in mobile and web views:
 ![](src/assets/images/web%20dark.png)
 ![](src/assets/images/mobile%20light.png)
 
-
 ## Hosted on github pages
 
-- [view it live]()
+- [view it live](https://stefanpougatchev.github.io/dictionary-web-app)
